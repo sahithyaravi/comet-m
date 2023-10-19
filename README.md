@@ -20,7 +20,7 @@ The datasets used for training COMET-M versions are available [here](https://dri
 - M-Mimic - Silver standard Inferences generated generated from GPT 3.5 Turbo.
 
 ### Checkpoints
-If you directly want to use the checkpoints of the trained models, you can download them on huggingface [here](). An example of how to generate inferences from these models is provided in `multi-event/inference_tests.py`.
+If you directly want to use the checkpoints of the trained models, you can download them on huggingface [COMET-M-MEI](https://huggingface.co/sahithyaravi/comet-m), [COMET-M-NLI](https://huggingface.co/sahithyaravi/comet-m-nli) and [COMET-M-MIMIC](https://huggingface.co/sahithyaravi/comet-m-mimic). An example of how to generate inferences from these models is provided in `multi-event/inference_tests.py`.
 
 ### Finetuning
 - If you want to start from the COMET checkpoint, get the pretrained comet from here Trained COMET-BART model can be downloaded [here](https://storage.googleapis.com/ai2-mosaic-public/projects/mosaic-kgs/comet-atomic_2020_BART.zip) and unzip/link it in the root folder. To start off with BART, you can simply specify model_path as `facebook/bart-large`.
