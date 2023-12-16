@@ -28,6 +28,24 @@ If you directly want to use the checkpoints of the trained models, you can downl
 - To train COMET on any of the above datasets, run `scripts/train.sh` and set the 'train_path' appropriately.
 
 ### Citation
+```
+@inproceedings{ravi-etal-2023-comet,
+    title = "{COMET}-{M}: Reasoning about Multiple Events in Complex Sentences",
+    author = "Ravi, Sahithya  and
+      Ng, Raymond  and
+      Shwartz, Vered",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.861",
+    pages = "12921--12937",
+}
+```
 
 
 
